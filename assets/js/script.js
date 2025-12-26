@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ];
     
     // Success state for when human verification passes
-    const successState = { text: 'You passed, but there is nothing here.', icon: 'fa-solid fa-star', duration: 6000, color: 'var(--tertiary-color)' };
+    const successState = { text: 'Coming 2026...', icon: 'fa-solid fa-calendar-days', duration: 6000, color: 'var(--tertiary-color)' };
     
     let currentStateIndex = 0;
     let timeoutId;
